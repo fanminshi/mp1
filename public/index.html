@@ -3,16 +3,219 @@
 <head>
   <meta charset="UTF-8">
   <title>MP1 Starter</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <div class="test"> My name is Anthony.</div>
 
+ <header id="header">
+  	
+   <div id = "logo">
+   		<h1>Fanmin Shi's Profolio<h1>
+   </div>   
+   <nav>
+   		<ul>
+   			<li id="active_section" class="menu_item">About</li>
+   			<li class="menu_item">Experiences</li>
+   			<li class="menu_item">Projects</li>
+   			<li class="menu_item">Activities</li>
+   		</ul>
+
+   		<div id="social-holder">
+		<span class = "social-wrap">
+			<a href="https://github.com/fanminshi" target="_blank">
+				<i class="fa fa-github-square"></i>
+			</a>
+			<a href="https://www.facebook.com/people/Fanmin-Shi/100004817589516" target="_blank">
+				<i class="fa fa-facebook-square"></i>
+			</a>
+		</span>
+	</div>
+	</nav>
+</header> 
+
+<div class="banner">
+	<p>Q: What's Computer Science?
+		<br>
+ 	   A: It is the Science of Problem Solving.
+	</p>
+</div>
+
+<section class="page" id = "intro">
+	<article class ="intro" >
+		<p> Specialising in Java backend softare development, X86-64 assembly code optimization, and CUDA Parallelization</p>
+		<br>
+		<h3>
+		I am a Software Engineer who is interested in Cloud Computing, CUDA Parallization, and Machine Learning. I will graduate from University of Illinois in Urbana-Champaign with a BS Computer Science Degree in May 2015.
+		<h3>
+	<article>
+
+</section>
+
+<section class="transparent_page" id = "experiences">
+	<h1>Experiences</h1>	
+	<article class = "Experiences">
+		<div> 
+			<a href="#openModal1">
+				<img src="amazon-logo.jpg" alt="Amazon" style="height:200px">
+			</a>
+			<div id = "openModal1" class = "modalDialog">
+				<div>
+					<a href="#close" title = "Close" class = "close">X</a>
+					<h1>Amazon.com Inc.</h1>
+					<h2>
+						Software Development Engineer Intern at ECPS
+					<h2>
+					<h2>
+						Summer 2014
+					</h2>
+					<ul>
+						<li>
+							● Designed and implemented a graph library using Java that find the strongly connected components of a graph in O(N + E) time.
+						</li>
+						<li>
+							● Wrote a comprehensive test suite, both unit tests and integration tests, for the graph library.
+						</li>
+						<li>
+							● Incorporated the behavior of graph library API to the existing website using Ruby on Rails and JavaScript.	
+						</li>
+						<li>
+							● Successfully accomplished the assigned project and shipped the code to production.
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+		 </div>
+		<div> 
+			<a href="#openModal2">
+				<img src="enosh_logo.png" alt="Enosh" style="height:200px">
+			</a>
+			<div id = "openModal2" class = "modalDialog">
+				<div>
+					<a href="#close" title = "Close" class = "close">X</a>
+					<h1>ENOSH</h1>
+					<h2>
+						Software Development and Optimization Engineer Intern
+					</h2>
+					<h2>
+						Summer 2013
+					</h2>
+					<ul>
+							<li>
+								● Wrote regression test driver in C and Fortran 95 for the software packages developed by ENOSH.
+							</li>
+							<li>
+								● Gathered test results and made the performance comparison graphs which displayed in the official website.
+							</li>
+							<li>
+								● Learned x86-64 assembly language, specifically SIMD instructions. Wrote the building blocks of the proprietary matrix multiplication package using SIMD instructions which outperformed the code written by ENOSH.	
+							</li>
+							<li>
+								● Worked directly under Dr. Jesse Wang and gained an indepth understanding on computer architectures and waterfall coding technology behind code optimization.
+							</li>
+					</ul>
+				</div>
+			</div>
+
+		 </div>
+		 	<div> 
+			<a href="#openModal3">
+				<img src="u_of_i.jpg" alt="Backman Insitute" style="height:200px">
+			</a>
+			<div id = "openModal3" class = "modalDialog">
+				<div>
+					<a href="#close" title = "Close" class = "close">X</a>
+					<h1>Beckman Institute</h1>
+					<h2>
+						Undergraduate Research: NEUROTECH group, Beckman Institute.
+					</h2>					
+					<h2>
+						Research Under Professor Mark E.Nelson, Leader of NEUROTECH group
+					</h2>
+					<h2>
+						Summer 2013 Spring - Spring 2014
+					</h2>
+					<ul>
+							<li>
+								● Co-Developed a simulation program which can simulate a robot with eight infrared sensors and two motors movements through a defined 2D environment.
+							</li>
+							<li>
+								● Implemented a learning model in Python and studied it on the simulator.
+							</li>
+							<li>
+								● Debugged and fixed the code to improve the model based on newly collected data.	
+							</li>
+							<li>
+								● Presented a novel situation that current learning model could not handle. Explored different solution to the problem.
+							</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+
+		 </div>
+	</article>
+
+</section>
+
+<section class="page" id = "projects">
+	<article>
+	<h1>Projects</h1>
+	<br>
+		<article>
+			<h2>Computer Graphic Video Demo</h2>
+			<br>
+			<video height = 300px controls loop>
+				<source src="demo1.mp4" type="video/mp4">
+			</video>
+
+			<video height = 300px controls loop>
+				<source src="demo2.mp4" type="video/mp4">
+			</video>
+
+			<video height = 300px controls loop>
+				<source src="demo3.mp4" type="video/mp4">
+			</video>
+		</article>
+	</article>
+
+</section>
+
+<section class="transparent_page" id = "activities">
+	<article>
+	<h1>
+		Acitivites
+	</h1>
+	<div class="carousel">
+		<div class="container">
+			<div class="image">
+				<img src="hack1.jpg" >
+			</div>
+			<div class="image">
+				<img src="hack6.jpg" >
+			</div>
+			<div class="image">
+				<img src="hack3.jpg">
+			</div>
+		</div>
+		<div class="button left"><i class="fa fa-angle-left fa-3x"></i></div>
+		<div class="button right"><i class="fa fa-angle-right fa-3x"></i></div>
+	</div>	
+	</article>
+
+</section>
+
+
+<footer>
+	<small> Copyright &copy; 2015</small>
+</footer>
 
   <script src="lib/jquery-2.1.3.min/index.js"></script>
   <script src="js/script.js"></script>
   <script src="http://localhost:35729/livereload.js"></script>
+
 </body>
 </html>
